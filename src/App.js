@@ -1,25 +1,33 @@
-import logo from './logo.svg';
+
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
+import Footer from './components/Footer';
+import HeroSection from './components/Hero-section';
+import Navbar from './components/Navbar';
+import Questions from './components/Questions';
+import Login from './components/Login';
+import AllComponents from './AllComponents';
+import Submit from './components/Submit';
+
 
 function App() {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Routes>
+        <Route path='/' element={<AllComponents />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/submit' element={<Submit />} />
+        
+      </Routes>
+
     </div>
   );
 }
 
 export default App;
+
+{/* <HeroSection />
+        <Questions />
+        <Footer /> */}

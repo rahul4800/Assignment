@@ -1,0 +1,281 @@
+section{
+    max-width: 100%;
+    padding: 20px;
+}
+
+.hero-container{
+    width: 100%;
+    padding-top: 40px;
+}
+
+.success{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.success-story{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.success-story span{
+    width: 400px;
+    font-weight: 400;
+    font-size:36px;
+    font-family: "Covered By Your Grace";
+    color: #2DA950;
+    
+}
+
+.success-story p{
+    font-family: "Manrope";
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.details{
+    width: 100%;
+    padding: 20px;
+    margin-top: 110px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    
+}
+
+.left{
+    width: 750px;
+    height: 596px;
+    
+}
+
+.girl-img{
+    width: 506px;
+    height: 550px;
+    border-radius: 2rem;
+   position: absolute;
+}
+
+
+
+.offer{
+    width: 267px;
+    height: 230px;
+    border: 1px solid black;
+    background-color: #FFFFFF;
+    border-radius: 27px;
+    padding: 5px;
+     position: relative;
+    top: 114px;
+    right: 120px;
+    z-index: 1; 
+}
+
+.offer .sun-img{
+    width: 78px;
+    height: 78px;
+    position: absolute;
+    transform: rotateY(0deg) ;
+}
+.offer-detail{
+    width: 207px;
+    top: 30px;
+    left: 18px; 
+    position: relative;
+    z-index: 1;
+    background-color: #FFFFFF;
+}
+
+.offer h4{
+    font-size: 64px;
+    font-weight: 500;
+    
+}
+.offer p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    color: #828282;
+    font-family: "Manrope";
+}
+
+.days{
+    width: 245px;
+    height: 88px;
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 110px;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    padding: 16px, 32px, 16px, 16px;
+    z-index: 1;
+    position: relative;
+    top: 200px;
+    right: 70px;
+   
+}
+
+
+.rocket-img{
+    width: 52px;
+    height: 52px;
+    color: #2DA950;
+}
+
+.days h5{
+    font-size: 24px;
+    font-weight: 700;
+}
+.days span{
+    font-size: 16px;
+    font-family: "Manrope";
+    color: #828282;
+}
+
+.price-info{
+    width: 300px;
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    background-color: #002E18;
+    border-radius: 28px;
+    padding: 20px 10px 10px 10px;
+    position: relative;
+    top: 40px;
+    right:-300px;
+}
+
+.price h5{
+    /* width: 119px;
+    height: 76px;  */
+    font-size: 63px;
+    font-weight: 500;
+    color: #FFFFFF;
+    
+}
+.price span{
+    font-size: 23px;
+    font-weight: 500;
+    font-family: Switzer;
+    color: #A6A3A0;
+    
+}
+.price-info p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 20px;
+    font-family: "Manrope";
+    color: #CCCCCC;
+}
+
+
+.right{
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+
+}
+.right p{
+    width: 398px;
+    height: 192px;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    font-family: "Manrope";
+    color: #1C1C1C;
+}
+
+.dots{
+    display: flex;
+    margin: 55px 0 20px 0;
+}
+
+.dots .dots-icon:first-child{
+    color: #2DA950;
+}
+
+.dots-icon{
+    font-size: 30px;
+    color: #E4E3E3;
+}
+
+.right button{
+    width: 245px;
+    height: 88px;
+    margin: 30px 0 0 0;
+    font-family: "Manrope";
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #1C1C1C;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px   ;
+}
+.right button:hover{
+    background-color: #4E4E4E;
+}
+
+@media only screen and (max-width: 576px) {
+    .success-story span {
+        font-size: 20px;
+    }
+
+    .success-story p {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .left img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .right p {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .days {
+        width: 160px;
+        height: 56px;
+    }
+
+    .price-info {
+        right: -200px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .success-story p {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .right p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .days {
+        width: 140px;
+        height: 48px;
+    }
+
+    .price-info {
+        right: -150px;
+    }
+}

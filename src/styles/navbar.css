@@ -1,0 +1,50 @@
+.navbar{
+    max-width: 100%; 
+    
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px;
+    border: 1px solid #EAEAEA; 
+    border-radius: 65.28px;                                                                                          
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.logo .logo-img{
+    width: 220px;
+    height: 47.39px;
+    object-fit: cover;
+    color: #333333;
+    
+}
+.nav-items{
+    display: flex;
+    gap: 18px;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 100px;
+    border: none;
+}
+
+.btn1:hover{
+    background-color: #EAEAEA;
+}
+
+.btn2{
+    background-color: #1C1C1C;
+    color: white;
+}
+.btn2:hover{
+    background-color: grey;
+    color: white;
+}

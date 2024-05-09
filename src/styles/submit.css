@@ -1,0 +1,84 @@
+.submit-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.logo-image img{
+    width: 220px;
+    height: 47.39px;
+    object-fit: cover;
+    align-self: center;
+    margin: 31.89px 0 0 0;
+}
+
+.submitted{
+    width: 100%;
+    display: flex;
+    margin-top: calc(221px - 180.83px);
+    justify-content: center;
+    margin-bottom: 154px;
+}
+.submit-content{
+    width: 718px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.submit-content .check-icon{
+    font-size: 80px;
+    margin-bottom: 41px;
+    color: #28B246;
+}
+
+.submit-content h5{
+    font-size: 36px;
+    font-family: "Covered By Your Grace";
+    font-weight: 400;
+    color: #2DA950;
+    text-align: center;
+}
+
+.submitted-details h2{
+    font-size: 56px;
+    font-family: "Manrope";
+    text-align: center;
+    color: #1C1C1C;
+    margin-bottom: 20px;
+}
+.submitted-details p{
+    font-size: 27px;
+    font-weight: 500;
+    font-family: "Manrope";
+    text-align: center;
+    color: #727272;
+}
+
+.last{
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+       
+}
+.last p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Manrope";
+    line-height: 26px;
+    color: #727272;
+}
+
+.last span{
+    
+    font-size: 20px;
+    font-weight: 500;
+    color: #1C1C1C;
+    font-family: "Manrope";
+    line-height: 26px;
+
+}
